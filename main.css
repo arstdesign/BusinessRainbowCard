@@ -10,18 +10,12 @@ body {
   background-position: center; /*-700px;*/
 }
 
-
-  
-
+/* cursor change when hovering over link */
 a{
   cursor: url("svg/beeStingCursor.svg"), auto;
     }
 
-
-    
-    
-
-
+    /* styling for my name text */
  h1 {
   color: #6F518F;
   font-family: "Modak", serif;
@@ -34,6 +28,7 @@ a{
    left: 300px;
 }
 
+/* styling for title text  */
 h2 {
   color: #ff95a9;
   font-family: "Chicle", serif;
@@ -44,11 +39,9 @@ h2 {
  position: absolute;
    top: 540px;
 left: 300px; 
-
 } 
 
-
-
+/* cloud movement animation */
 
 @keyframes moveClouds {
   0% {
@@ -58,10 +51,6 @@ left: 300px;
     transform: translateX(100px);
   }
 }
-
-
-
-
 
 .page-container {
   
@@ -77,19 +66,12 @@ left: 300px;
 }
 
 .leftCloud {
-  
-  grid-area: l;
-  
-  
+  grid-area: l; 
 }
 
 .bottomCloud {
- 
-
   grid-area: b;
   
-  
-
 /*animation: moveClouds 6s ease-in-out infinite alternate;*/
   .cls-1 {
     fill: #a3d17b;
@@ -122,8 +104,7 @@ left: 300px;
 .rightCloud {
   
  grid-area: r;
- 
- 
+
   /*animation: moveClouds 8s ease-in-out infinite alternate;*/
 
   .cls-1, .cls-2 {
@@ -154,21 +135,12 @@ left: 300px;
 }
 
 .topCloud {
-  
-
   grid-area: t;
-  
-
   /*animation: moveClouds 10s ease-in-out infinite alternate;*/
-  
-
 }
 
 .monogram-container{
 grid-area: m;
-
-
-
 
   .cls-1 {
     fill: #fed769;
@@ -201,11 +173,12 @@ grid-area: m;
 
 .littleTopCloud{
   animation: moveClouds 3s ease-in-out infinite alternate;
-grid-area: c;
+  grid-area: c;
+  
   .cls-1 {
-    fill: #fffffa;
-    stroke: #231f20;
-    stroke-miterlimit: 10;
+  fill: #fffffa;
+  stroke: #231f20;
+  stroke-miterlimit: 10;
   }
 }
 
