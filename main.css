@@ -18,12 +18,15 @@ a{
     }
 
 
-
+    
+    
 
 
  h1 {
   color: #6F518F;
-  font-family: modak;
+  font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
   font-size: 70px;
   -webkit-text-stroke: black 0.1px;
  position: absolute;
