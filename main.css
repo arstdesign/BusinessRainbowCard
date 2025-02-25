@@ -35,7 +35,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
-  -webkit-text-stroke: black 1px; 
+  -webkit-text-stroke: black 0.5px; 
  position: absolute;
    top: 520px;
 left: 300px; 
