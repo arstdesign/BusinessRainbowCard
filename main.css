@@ -22,20 +22,33 @@ a{
     font-weight: 400;
     font-style: normal;
   font-size: 70px;
-  -webkit-text-stroke: black 1px; 
+  -webkit-text-stroke: rgb(235, 205, 248) 1px; 
  position: absolute;
   top: 300px;
    left: 300px;
 }
 
-/* styling for title text  */
 h2 {
+  color: #6F518F;
+  font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    -webkit-text-stroke: rgb(235, 205, 248) 1px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+
+
+/* styling for title text  */
+h3 {
   color: #ff95a9;
   font-family: "Chicle", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
-  -webkit-text-stroke: black 0.5px; 
+  -webkit-text-stroke: rgb(244, 182, 230) 0.5px; 
  position: absolute;
    top: 520px;
 left: 300px; 
@@ -83,7 +96,7 @@ left: 300px;
 
   .cls-4 {
     fill: #fffffa;
-    stroke: #231f20;
+    stroke: #d3d5d0;
   }
 
   .cls-4, .cls-3 {
@@ -92,7 +105,7 @@ left: 300px;
   }
 
   .cls-3 {
-    stroke: #010101;
+    stroke: #587341;
   }
 
   .cls-5 {
@@ -117,7 +130,7 @@ left: 300px;
   }
 
   .cls-3, .cls-2 {
-    stroke: #231f20;
+    stroke: #276f7c;
     stroke-width: 3px;
   }
 
